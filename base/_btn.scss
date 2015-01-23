@@ -1,0 +1,23 @@
+.btn {
+	border: 2px solid;
+	display: inline-block;
+	font-size: $baseFontSize + .125;
+	font-family: $sans-serif_cond;
+	padding: .5rem 1.5rem;
+	color: inherit;
+	border-radius: .25rem;
+	margin-right: 1rem;
+	font-weight: 700;
+	margin: .5rem 0;
+	width: 100%;
+	@include mq-min(tablet) {
+		width: auto;
+		margin: 0 1rem 0 0;
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+	&:hover, &:focus {
+		color: $baseColorLite;
+	}
+}

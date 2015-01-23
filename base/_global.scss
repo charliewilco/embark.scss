@@ -1,0 +1,20 @@
+* {
+	padding: 0;
+	margin: 0;
+	// overflow: auto;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	background: $offwhite;
+}
+img {
+	max-width: 100%;
+}
+
+
+.show { display: block; }
+.hidden { display: none; }
