@@ -74,11 +74,11 @@ $animation-func: ease !default;
 
 // z-index
 $z-layers: (
-"top":            9999,
-"almost-top":     9998,
-"default":            1,
-"below":             -1,
-"waydownthere":   -9000
+	"top":            9999,
+	"almost-top":     9998,
+	"default":            1,
+	"below":             -1,
+	"waydownthere":   -9000
 );
 
 // random colors
