@@ -5,12 +5,12 @@ var gulp     		 = require('gulp'),
 		pixrem       = require('gulp-pixrem');
 
 gulp.task('styles', function(){
-	gulp.src(['_embark.scss','./base/*.scss'])
+	gulp.src(['app.scss', '_embark.scss','./base/*.scss'])
 	.pipe(plumber())
 	.pipe(sass({outputStyle: 'compressed'}))
 	.pipe(autoprefixer('last 2 version'))
 	.pipe(pixrem())
-	.pipe(gulp.dest('./css/'));
+	.pipe(gulp.dest('css/'));
 });
 
 

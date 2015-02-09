@@ -63,7 +63,6 @@ $w: 68rem;
 // padding
 $padUpDown: 1.5rem;
 $padSide: 1rem;
-$padSide: .5rem;
 
 
 // transitions
@@ -80,10 +79,3 @@ $z-layers: (
 	"below":             -1,
 	"waydownthere":   -9000
 );
-
-// random colors
-
-.alt {
-	color: lightslategray;
-	color: steelblue;
-}
