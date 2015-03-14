@@ -7,8 +7,8 @@ var gulp     		 = require('gulp'),
 gulp.task('styles', function(){
 	gulp.src(['app.scss', '_embark.scss','./base/*.scss'])
 	.pipe(plumber())
-	.pipe(sass({outputStyle: 'compressed'}))
-	.pipe(autoprefixer('last 2 version'))
+	.pipe(sass())
+	// .pipe(autoprefixer('last 2 version'))
 	.pipe(pixrem())
 	.pipe(gulp.dest('css/'));
 });

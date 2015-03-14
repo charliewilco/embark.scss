@@ -50,12 +50,13 @@ ul, ol {
 
 blockquote {
 	padding: 1.5rem 0;
-	font-style: italic;
+
 	margin: 1rem 0;
 	color: $baseColor;
 	p {
 		line-height: 1.6;
-		font-weight: 300;
+		font-weight: $baseFontWeight;
+		font-style: italic;
 		font-size: $baseFontSize + ($baseFontSize/4);
 	}
 	cite {
@@ -88,7 +89,7 @@ $weights: 300, 400, 700;
 @for $i from 1 through 3 {
 	.text-col-#{$i} {
 		column-count: $i;
-		column-width: 20rem;
+		column-width: $w/$i;
 		column-gap: $baseFontSize*2;
 	}
 }
