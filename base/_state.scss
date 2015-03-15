@@ -1,2 +1,2 @@
-.show { display: block !important; }
-.hidden { display: none !important; }
+.is--shown { display: block !important; opacity: 0; }
+.is--hidden { display: none !important; opacity: 1; }
