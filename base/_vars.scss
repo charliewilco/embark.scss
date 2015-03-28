@@ -1,3 +1,10 @@
+@import 'colors';
+@import 'ff';
+@import 'sizes';
+
+// *  D E F A U L T S * //
+
+
 // base colors
 $baseColor: $blue !default;
 $baseColorDark: $dark-blue !default;
@@ -5,9 +12,9 @@ $baseColorLite: $lt-blue !default;
 
 
 // fonts
-$serif: "Georgia", Times, serif !default;
-$sans-serif: "Open Sans", "Helvetica", "Helvetica Neue", Helvetica, Arial,  Verdana, sans-serif !default;
-$sans-serif_cond: "Source Sans Pro", Avenir, "Lucida Grande", sans-serif !default;
+$serif: $georgia !default;
+$sans-serif: $open-sans !default;
+$sans-serif_cond: $avenir !default;
 $baseFontWeight: 300 !default;
 $baseFontSize: 1rem !default;
 
