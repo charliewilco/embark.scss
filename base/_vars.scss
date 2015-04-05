@@ -6,37 +6,31 @@
 
 
 // base colors
-$baseColor: $blue !default;
-$baseColorDark: $dark-blue !default;
-$baseColorLite: $lt-blue !default;
+$base--color: $blue !default;
+$base--color_dark: $dark-blue !default;
+$base--color_lite: $lt-blue !default;
 
 
 // fonts
 $serif: $georgia !default;
 $sans-serif: $open-sans !default;
 $sans-serif_cond: $avenir !default;
-$baseFontWeight: 300 !default;
-$baseFontSize: 1rem !default;
 
-// sizes
-$w: 68rem;
-
-// padding
-$padUpDown: 1.5rem;
-$padSide: 1rem;
-
+$base--font_family: $sans-serif !default;
+$base--font_weight: 300 !default;
+$base--font_size: 1rem !default;
 
 // transitions
-$transition-duration: 375ms !default;
-$transition-func: ease-in-out !default;
-$animation-func: ease !default;
+$transition--duration: 375ms !default;
+$transition--func: ease-in-out !default;
+$animation--func: ease !default;
 
 
 // z-index
 $z-layers: (
 	"top":            9999,
 	"almost-top":     9998,
-	"default":            1,
-	"below":             -1,
-	"waydownthere":   -9000
+	"default":           1,
+	"below":            -1,
+	"waydownthere":  -9000
 );
