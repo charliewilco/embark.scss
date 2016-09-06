@@ -1,35 +1,33 @@
 // Media Queries
 @mixin break-min($size) {
-	@media only screen and (min-width: $size) { @content; }
+  @media only screen and (min-width: $size) { @content; }
 }
 
 @mixin break-max($size) {
-	@media only screen and (max-width: $size) { @content; }
+  @media only screen and (max-width: $size) { @content; }
 }
 
-
-
 @mixin break($size) {
-	@if $size == 'basis' {
-		@media only screen and (min-width: 0) and (max-width: $break--medium - 1){ @content; }
-	}
-	@else if $size == 'small' {
-		@media only screen and (min-width: $size) { @content; }
-	}
-	@else if $size == 'medium' {
-		@media only screen and (min-width: $break--small + 1) and (max-width: $break--medium - 1){ @content; }
-	}
-	@else if $size == 'large' {
-		@media only screen and (min-width: $break--medium + 1) and (max-width: $break--large - 1) { @content; }
-	}
-	@else if $size == 'larger' {
-		@media only screen and (min-width: $break--large + 1) { @content; }
-	}
-	@else if type_of($size) != string {
-		@error '#{$size} within `@include break();` should be a string. Try \'small\', \'medium\', \'large\'';
-		@content;
-	}
-	@else {
-		@error '#{$size} within `@include break();` is not an intended size. Try \'small\', \'medium\', \'large\'';
-	}
+  @if $size == 'basis' {
+    @media only screen and (min-width: 0) and (max-width: $break--medium - 1){ @content; }
+  }
+  @else if $size == 'small' {
+    @media only screen and (min-width: $size) { @content; }
+  }
+  @else if $size == 'medium' {
+    @media only screen and (min-width: $break--small + 1) and (max-width: $break--medium - 1){ @content; }
+  }
+  @else if $size == 'large' {
+    @media only screen and (min-width: $break--medium + 1) and (max-width: $break--large - 1) { @content; }
+  }
+  @else if $size == 'larger' {
+    @media only screen and (min-width: $break--large + 1) { @content; }
+  }
+  @else if type_of($size) != string {
+    @error '#{$size} within `@include break();` should be a string. Try \'small\', \'medium\', \'large\'';
+    @content;
+  }
+  @else {
+    @error '#{$size} within `@include break();` is not an intended size. Try \'small\', \'medium\', \'large\'';
+  }
 }

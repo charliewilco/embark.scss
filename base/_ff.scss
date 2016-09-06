@@ -1,39 +1,8 @@
-$helvetica: Helvetica Neue, Helvetica, Arial, sans-serif;
-$avenir: Avenir, Avenir Next, Helvetica, Lucida Grande, sans-serif;
+$helvetica: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$avenir: Avenir, 'Avenir Next', Helvetica, 'Lucida Grande', sans-serif;
 $verdana: Verdana, Arial, sans-serif;
-$georgia: Georgia, "Georgia", Century Schoolbook, Times, serif;
+$georgia: Georgia, 'Georgia', 'Century Schoolbook', Times, serif;
 
-$open-sans: "Open Sans", "Helvetica", "Helvetica Neue", Helvetica, Arial, 'Verdana', sans-serif;
-$source-sans-pro: "Source Sans Pro", ;
-$roboto: "Roboto";
-/*
-  Proxima Nova
-  Tisa Serif
-  Tisa Sans
-  Dagny
-  Calluna
-  Calluna Sans
-  Fira Sans
-  Fira Mono
-  Brandon Grotesque
-  Freight Sans Pro
-  Freight Text
-
-  Source Code Pro
-  Playfair
-  Inconsolata
-  Signika
-  Alegreya
-  Titillium Web
-  Varela Round
-  Noto Sans
-  Noto Serif
-
-  Gotham
-  Whitney
-  Sentinel
-  Verlag
-  Archer
-  Mercury
-  Tungsten
-*/
+$open-sans: 'Open Sans', 'Helvetica', 'Helvetica Neue', Helvetica, Arial, 'Verdana', sans-serif;
+$source-sans-pro: 'Source Sans Pro', $avenir;
+$roboto: 'Roboto', $helvetica;

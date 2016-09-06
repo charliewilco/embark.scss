@@ -5,32 +5,32 @@
 // *  D E F A U L T S * //
 
 
-// base colors
-$base--color: $blue !default;
-$base--color_dark: $dark-blue !default;
-$base--color_lite: $lt-blue !default;
+// Base Colors
+$base-color: $blue !default;
+$base-color-dark: $dark-blue !default;
+$base-color-lite: $lt-blue !default;
 
 
-// fonts
+// Fonts
 $serif: $georgia !default;
 $sans-serif: $open-sans !default;
-$sans-serif_cond: $avenir !default;
+$sans-serif-cond: $avenir !default;
 
-$base--font_family: $sans-serif !default;
-$base--font_weight: 300 !default;
-$base--font_size: 1rem !default;
+$base-font-family: $sans-serif !default;
+$base-font-weight: 300 !default;
+$base-font-size: 1rem !default;
 
-// transitions
-$transition--duration: 375ms !default;
-$transition--func: ease-in-out !default;
-$animation--func: ease !default;
+// Transitions
+$transition-duration: 375ms !default;
+$transition-func: ease-in-out !default;
+$animation-func: ease !default;
 
 
-// z-index
+// Z-index
 $z-layers: (
-	"top":            9999,
-	"almost-top":     9998,
-	"default":           1,
-	"below":            -1,
-	"waydownthere":  -9000
+  "top":            9999,
+  "almost-top":     9998,
+  "default":           1,
+  "below":            -1,
+  "waydownthere":  -9000
 );
